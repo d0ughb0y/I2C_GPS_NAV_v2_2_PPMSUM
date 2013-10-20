@@ -10,6 +10,8 @@ This version adds my PPMSUM interrupt routine to multiplex the 8 channels from R
 to be connected to throttle pin on flight controller. Now you are really getting the most out of your 
 Arduino Pro Mini board.
 
+**The I2C address for this code is 0x40, make sure to change this in def.h in your MultiWii source.**
+
 ASCII Wiring Diagram ;)
 -----------------------
 
